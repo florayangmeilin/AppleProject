@@ -21,7 +21,13 @@ const instructions = Platform.select({
     'Shake or press menu button for dev menu',
 });
 
-export default class App extends Component<{}> {
+class Greeting extends Component {
+  render(){
+    <Text style={styles.welcome}>Hello {this.props.name}</Text>
+  }
+}
+
+export default class App extends Component {
   render() {
       let pic= {url:'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg' }
     return (
