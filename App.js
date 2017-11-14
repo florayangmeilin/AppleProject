@@ -23,7 +23,9 @@ const instructions = Platform.select({
 
 class Greeting extends Component {
   render(){
+    return (
     <Text style={styles.welcome}>Hello {this.props.name}</Text>
+  );   
   }
 }
 
