@@ -34,7 +34,7 @@ export default class App extends Component {
       let pic= {url:'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg' }
     return (
       <View style={styles.container}>
-        <Greeting name='World'/>
+        <Greeting name='Flora and Ian'/>
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
