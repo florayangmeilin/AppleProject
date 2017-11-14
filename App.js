@@ -12,7 +12,7 @@ export default class App extends Component {
   render(){
     return (
       <View>
-        <Image source={'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg'} style={{width:193,height:110}}/>
+        <Image source={{uri:'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg'}} style={{width:193,height:110}}/>
       </View>
     );
   }
